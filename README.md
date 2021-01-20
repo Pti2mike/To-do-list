@@ -1,3 +1,9 @@
+# Todos
+
+- Add responsive
+- Create a backend in order to keep tasks
+- Factorize code with components
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

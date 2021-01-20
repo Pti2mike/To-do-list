@@ -1,38 +1,93 @@
-.App {
-  text-align: center;
+body {
+  font-family: "Montserrat", sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+header {
+  border-bottom: solid 1px lightgrey;
+  display: flex;
+  padding: 20px;
+  font-size: 50px;
+  margin-bottom: 30px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.list-alt {
+  color: #5c48d3;
+  margin-right: 50px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.wrapper {
+  margin: 0 auto;
+  width: 1024px;
+  padding: 30px;
+  box-sizing: border-box;
+  /* border: solid 1px black; */
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.task-content {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.checkbox {
+  height: 15px;
+  width: 15px;
+  border: solid 1px red;
+}
+
+.task-content span {
+  margin: 0 10px;
+  font-size: 28px;
+}
+
+.checked {
+  text-decoration: line-through;
+}
+
+.trash {
+  font-size: 20px;
+  color: #5c48d3;
+}
+
+.task-input {
+  margin-top: 50px;
+}
+
+.input {
+  margin-right: 20px;
+  background: #f2f7fd;
+  height: 65px;
+  width: 548px;
+  border-radius: 10px;
+  border: solid 1px #5c48d3;
+  outline: none;
+  font-size: 24px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+button {
+  width: 130px;
+  height: 65px;
+  background: #5c48d3;
+  border-radius: 10px;
+  border: none;
+  font-size: 24px;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+footer {
+  display: flex;
+  justify-content: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+footer span {
+  font-weight: bold;
 }
+
+/* RESPONSIVE TO BE ADDED*/
